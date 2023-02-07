@@ -1,0 +1,51 @@
+.header {
+  padding: 0 40px;
+}
+.headerWrapper {
+  display: flex;
+  justify-content: space-between;
+  justify-content: space-between;
+}
+
+.header > h1 {
+  font-size: 40px;
+  width: 50%;
+  margin: 40px 0;
+}
+
+.header .leftSide > p {
+  width: 75%;
+  margin-bottom: 24px;
+}
+
+.header .leftSide > form {
+  position: relative;
+  width: 280px;
+  margin-bottom: 100px;
+}
+
+.header .leftSide > form > input {
+  border: 1px solid gray;
+  height: 40px;
+  border-radius: 20px;
+  padding: 5px 20px;
+  position: absolute;
+  width: 100%;
+  font-size: 12px;
+}
+
+.header .leftSide > form > button {
+  position: absolute;
+  right: 5px;
+  height: 30px;
+  border: 1px solid gray;
+  top: 5px;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+
+.header .leftSide > .links > a {
+  text-decoration: none;
+  color: black;
+  margin-right: 20px;
+}
